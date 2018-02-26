@@ -1,0 +1,40 @@
+<style>
+	.cards{
+		margin-bottom:20px;
+	}
+	.card{
+		padding: 10px;
+		margin-top:10px;
+		box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+		border-radius: 10px !important;
+		
+	}
+	.card-title{
+		color: #fff;
+		font-weight: bold;
+		font-family: 'Source Sans Pro', 'Segoe UI', 'Droid Sans', Tahoma, Arial, sans-serif;
+
+	}
+	.card.my-open-req{
+		background-color: #2dbcf1;
+		cursor: pointer;
+	}
+	.card.all-open-req{
+		background-color:#1ebfae;
+		cursor: pointer;
+	}
+	.card.req-handled{
+		background-color:#f18455;
+	}
+	.card.avg-time{
+		background-color:#f5c417;
+	}
+	.card-text{
+		text-align: center;
+		color: #fff;
+		font-weight: bold;
+		font-size: 5rem;
+		padding: 15px;
+		font-family: sans-serif, "Times New Roman";
+	}
+</style>
